@@ -108,7 +108,8 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
  }
  /* Benefits */
- .benefits{
+ .benefits ,
+ .header-title{
     display: none;
  }
  .benefits-title{
@@ -173,7 +174,9 @@ body{
 
  /* Portfolio */
 
- .portfolio-title{
+ .portfolio-title ,
+ .portfolio-filter ,
+ .exampls{
     display: none;
  }
  .btn.second{
