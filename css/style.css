@@ -16,9 +16,7 @@ body{
     min-width: 1600px;
     font-family: 'Roboto', sans-serif;
 }
-.wrapper{
 
-}
 
 .title{
     color: var(--primary-text-color);
@@ -190,4 +188,17 @@ body{
     background-color: var(--accent-color);
     color: var(--white-color);
 
+ }
+/* Portfolio exampls */
+ .link .exampl-name{
+   color: var(--primary-text-color);
+   font-weight: 700;
+   font-size: 1.1em;
+   line-height: 1.4;
+ }
+ .link .exampl-descr{
+   color: var(--second-text-color);
+   font-weight: 400;
+   font-size: 1em;
+   line-height: 1.9;
  }
