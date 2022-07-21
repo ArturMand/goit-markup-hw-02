@@ -16,22 +16,25 @@ body{
     min-width: 1600px;
     font-family: 'Roboto', sans-serif;
 }
-
-
+/* Обнуление */
+.list {
+   list-style: none;
+}
+.link{
+   text-decoration: none;
+}
+/* Общее для тайтлов */
 .title{
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 2.25em;
-    line-height: 2,625;
+    line-height: 2.625;
     text-align: center;
     letter-spacing: 0.03em;
 }
- .list {
-    list-style: none;
- }
- .link{
-    text-decoration: none;
- }
+
+/* Header */
+
  .logo{
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -41,7 +44,12 @@ body{
     line-height: 1.94;
  }
 
- /* nav */
+ .nav-list{
+   font-weight: 500;
+   font-size: 0.875em;
+   line-height: 1;
+   letter-spacing: 0.02em;
+ }
 .logo-blue{
     color: var(--accent-color);
 }
@@ -59,10 +67,14 @@ body{
     
  }
  .nav-link:hover , .nav-link:focus , 
- .cont-link:hover , .cont-link:focus{
+ .cont-link:hover , .cont-link:focus ,
+ .adress:hover , .adress:focus , 
+ .contact:focus , .contact:hover{
     color: var(--accent-color);
  }
   
+/* Main */
+
  /* Intro */
 .intro{
     background-color: var(--primary-bgc);
@@ -107,7 +119,7 @@ body{
     
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
  }
- /* Benefits */
+ /* Преимущества */
  .benefits ,
  .header-title{
     display: none;
@@ -127,7 +139,7 @@ body{
     letter-spacing: 0.03em;
     color: var(--second-text-color);
  }
- /* Our team */
+ /* Наша команда  */
  .team-container{
     max-width: 270px;
     max-height: 368px;
@@ -136,7 +148,7 @@ body{
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 1em;
-    line-height: 1,2;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -145,40 +157,39 @@ body{
     color: var(--second-text-color);
     font-weight: 400;
     font-size: 1em;
-    line-height: 1,2;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 
  }
- /* footer */
+ /* Футер */
  .footer{
     width: 1600px;
     height: 252px;
     background-color: var(--primary-bgc);
  }
+ .footer-adress{
+   font-weight: 400;
+   font-size: 0.875em;
+   line-height: 1.5;
+   letter-spacing: 0.03em;
+ }
  .adress{
     color: var(--white-color);
-    font-weight: 400;
-    font-size: 0.875em;
-    line-height: 1.5;
-    letter-spacing: 0.03em;
+
  }
  .contact{color: var(--contact-color);
-    font-weight: 400;
-    font-size: 0.875em;
-    line-height: 1.5;
-    letter-spacing: 0.03em;
+
  }
 
 
 
- /* Portfolio */
+ /* Портфолио */
 
- .portfolio-title ,
- .portfolio-filter ,
- .exampls{
+ .portfolio-title{
     display: none;
  }
+ /* Кнопки портфолио */
  .btn.second{
     background-color: var(--second-bgc);
     color: var(--primary-text-color);
@@ -192,7 +203,7 @@ body{
     color: var(--white-color);
 
  }
-/* Portfolio exampls */
+/* Наши роботы */
  .link .exampl-name{
    color: var(--primary-text-color);
    font-weight: 700;
