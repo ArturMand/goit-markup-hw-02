@@ -74,7 +74,10 @@ body{
  .contact:focus , .contact:hover{
     color: var(--accent-color);
  }
-  
+ .current{
+   color: var(--accent-color);
+ 
+}
 /* Main */
 
  /* Intro */
